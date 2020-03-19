@@ -1,4 +1,11 @@
 ---
 label: Katitu
 hide_body: true
-fields: []
+fields:
+- name: qwqefd
+  type: blocks
+  label: weref
+  template_types: []
+  config:
+    min: 
+    max: 
