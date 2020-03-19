@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: admin
 webhook_url: https://api.stackbit.com/project/5e36e1f61bed2b001beb19a3/webhook/forestry
 sections:
+- type: jekyll-pages
+  label: " hhh"
+  create: all
+  match: "**/*"
 - type: document
   path: _config.yml
   label: Global Site Config
@@ -74,7 +78,7 @@ build:
   - JEKYLL_ENV=staging
   preview_output_directory: _site
   install_dependencies_command: bundle install --path vendor/bundle
-  preview_docker_image: forestryio/ruby:2.6
+  preview_docker_image: forestryio/ruby:2.6-node10
   mount_path: "/srv"
   instant_preview_command: bundle exec jekyll serve --drafts --unpublished --future
     --port 8080 --host 0.0.0.0 -d _site

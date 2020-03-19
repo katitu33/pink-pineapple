@@ -128,3 +128,5 @@ fields:
   label: Exclude
   description: Exclude directories and/or files from the conversion.
   hidden: true
+pages:
+- nkjnk.html

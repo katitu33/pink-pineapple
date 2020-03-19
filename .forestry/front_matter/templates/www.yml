@@ -1,0 +1,16 @@
+---
+label: www
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: subtitle
+  label: subtitle
+- type: text
+  name: layout_style
+  label: layout_style
+- type: text
+  name: layout
+  label: layout
