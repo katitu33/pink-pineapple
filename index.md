@@ -78,6 +78,12 @@ sections:
   title: ''
   section_id: ''
   content: ''
+- template: heroblock
+  component: hero_block.html
+  type: heroblock
+  title: ''
+  section_id: ''
+  content: ''
 layout: home
 menu:
   main:
