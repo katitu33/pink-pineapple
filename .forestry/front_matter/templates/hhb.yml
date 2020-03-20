@@ -1,4 +1,10 @@
 ---
 label: Hhb
 hide_body: false
-fields: []
+fields:
+- name: local
+  type: include
+  config: {}
+  template: portfolioblock
+  label: Local
+  hidden: false
